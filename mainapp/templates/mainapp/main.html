@@ -1,12 +1,7 @@
 {% extends 'mainapp/base.html' %}
-{% load static %}
 
 {% block title %}
     <title>Главная</title>
-{% endblock %}
-
-{% block css %}
-    <link rel="stylesheet" type="text/css" href="{% static '/css/styles.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -19,7 +14,7 @@
     {% endif %}
     <ul>
     {% for item in array %}
-        <li>element {{item }}</li>
+        <li>element {{ item }}</li>
     {% endfor %}
     </ul>
 {% endblock %}
