@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Товары разные",
+        "name": "Товар-1",
+        "price": 1,
+        "quantity": 1
+    },
+    {
+        "category": "Товары разные",
+        "name": "Товар-2",
+        "price": 2000,
+        "quantity": 1
+    },
+    {
+        "category": "Товары редкие",
+        "name": "Товар-3",
+        "price": 5000,
+        "quantity": 7
+    },
+    {
+        "category": "Товары редкие",
+        "name": "Товар-4",
+        "price": 1000,
+        "quantity": 15
+    }
+]
