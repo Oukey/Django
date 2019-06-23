@@ -20,3 +20,4 @@ class BasketSlot(models.Model):
         return self.quantity * self.product.price
 
     cost = property(get_cost)
+
